@@ -1,0 +1,58 @@
+/* I'm sure there is a much more efficient and simpler way of doing this. I just was able to do this with the skills I have acquired. And some inspiration from a certain name badge. */
+
+/* In my opinion ID selectors can be bad because each one is unique and if every tag has unique selector that will be a shit storm.
+I like the class selector then everything can be grouped up and make you look cool and fun.*/
+
+@import url(https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise);
+
+body {
+  background-color: grey;
+  font-family: sans-serif;
+  color: white;
+}
+
+ul {
+  margin-top: 7%;
+  margin-left: 40%;
+  background-color: white;
+  width: 320px;
+  height: 200px;
+  padding: 0;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+  list-style: none;
+  list-style-position: inside;
+  text-align: center;
+  font-color: white;
+}
+  
+.pasta {
+  background-color: red;
+  display: block;
+  font-size: 30px;
+  border-radius;
+}
+li span {
+  display: block;
+  font-size: 50px;
+  background-color: red;
+  border-radius: 20px 20px 0px 0px;
+  letter-spacing: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name {
+  font-size: 65px;
+  font-family: 'Waiting for the Sunrise', cursive;
+  color: black;
+}
+
+#zap {
+  background-color: red;
+  display: block;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
